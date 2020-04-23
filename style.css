@@ -1,0 +1,25 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+nav{
+    width: 98%;
+    position: absolute;
+    background-color:aquamarine;
+}
+
+a{
+    float: right;
+    margin: 3px;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    margin: 50%;
+    background-color: cadetblue;
+}
