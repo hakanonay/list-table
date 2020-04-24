@@ -93,9 +93,36 @@ a.contact {
     font-size: 18px;
     font-weight: 600;
     }  
-body {
-    background-image:url(C:\Users\John\Desktop\7.jpg);
-            
+.bikinDiv {
+    width: 100vw;
+    height: 60vh;
+    background-image:url('images/bg.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover; 
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: right; }
+    .item5 { grid-area: footer; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main right right right'
+        'menu footer footer  right right right';
+      grid-gap: 5px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+    
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
     }
 
 
