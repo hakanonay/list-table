@@ -1,7 +1,20 @@
 a.navbar-brand {
-    color: #1ac8aa;
+  font: 2em sans-serif; 
+  color: #1ac8aa;
+  font-size: xx-large;
 }
 body {
-  background-image: url("image/officecleaning.jpg")
+  background-image: url("image/houscleaning.jpg"), url("image/housecleaning1.jpg"), url("image/housecleaning2.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
-  
+a.nav-link {
+color: orange;
+}
+.display-4{
+  font-size: 2rem;
+  color: darkslateblue;
+}
+.lead{
+  color: goldenrod;
+}
